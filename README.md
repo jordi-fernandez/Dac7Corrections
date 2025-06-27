@@ -8,7 +8,7 @@ service page from the Spanish Tax Authority.
 * Having the original presented files from the Spanish Tax Authority. 
   - <b>It will require digital certificate to access or someone with access can provide them</b>
   - Can be downloaded from Hacienda url
-  - Or in batch using Apple automator (more info)[./automator/automator.md]
+  - Or in batch using Apple automator [(more info)](./automator/automator.md)
 * Having identified the users to modify and/or delete its presentation
   - In the respective csv files inside the `input` containing the userId and the reportable seller presentation reference
 * Having the corrected data of the users to modify
@@ -24,5 +24,5 @@ It generates the necessary files in the output folder:
 - Ones named as `Modificacion_XX_salida.csv` containing the updated activity data and the original fiscal data
 - Ones names as `Borrado_XX_salida.csv` containing the original data
 
-Both files containing the codes as required for the Spanish Tax Authority tax web portal when the csv files generated can 
+Both files containing the codes required for the Spanish Tax Authority DAC7 web portal where the csv files generated can 
 be imported.
